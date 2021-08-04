@@ -1,0 +1,7 @@
+.form-group label{
+    margin: 3px;
+}
+
+input.invalid{
+    border-color: red;
+}

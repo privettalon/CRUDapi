@@ -22,7 +22,7 @@ namespace WebApi.Controllers
 
         // GET: api/Organizations
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Organization>>> GetOrganizations()
+        public async Task<IEnumerable<Organization>> GetOrganizations()
         {
             return await _context.Organizations.ToListAsync();
         }

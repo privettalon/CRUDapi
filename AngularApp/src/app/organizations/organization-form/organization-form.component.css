@@ -2,6 +2,6 @@
     margin: 3px;
 }
 
-input.invalid{
+input.ng-touched.ng-invalid{
     border-color: red;
 }

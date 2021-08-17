@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uLH7dDIfOyeHDKPYDCwfAuoQ7yakRTjwi/bWuWO+56mfyT/RZg4BG/MCt/rIfwMGJ6V0lslP0VTLejwvvu+UXA==",
+  "dgSpecHash": "oFtDyiSVuYE5J3NolAWU8VBfgkwAY42xc654dnDryxwLb3KVKtCR5/NKJFZYGAyTeJhuHanErEphXUL0LrbXVA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dmytro.m.kovalchuk\\Documents\\GitHub\\CRUDapi\\WebApi\\WebApi\\WebApi.csproj",
+  "projectFilePath": "C:\\Users\\dmytro.m.kovalchuk\\Documents\\GitHub\\CRUDapi\\WebAPI\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dmytro.m.kovalchuk\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\dmytro.m.kovalchuk\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

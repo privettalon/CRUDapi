@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dmytro.m.kovalchuk\\Documents\\GitHub\\CRUDapi\\WebApi\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\dmytro.m.kovalchuk\\Documents\\GitHub\\CRUDapi\\WebAPI\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dmytro.m.kovalchuk\\Documents\\GitHub\\CRUDapi\\WebApi\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\dmytro.m.kovalchuk\\Documents\\GitHub\\CRUDapi\\WebAPI\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dmytro.m.kovalchuk\\Documents\\GitHub\\CRUDapi\\WebApi\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\dmytro.m.kovalchuk\\Documents\\GitHub\\CRUDapi\\WebAPI\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\dmytro.m.kovalchuk\\Documents\\GitHub\\CRUDapi\\WebApi\\WebApi\\WebApi.csproj",
+        "projectPath": "C:\\Users\\dmytro.m.kovalchuk\\Documents\\GitHub\\CRUDapi\\WebAPI\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\dmytro.m.kovalchuk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dmytro.m.kovalchuk\\Documents\\GitHub\\CRUDapi\\WebApi\\WebApi\\obj\\",
+        "outputPath": "C:\\Users\\dmytro.m.kovalchuk\\Documents\\GitHub\\CRUDapi\\WebAPI\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

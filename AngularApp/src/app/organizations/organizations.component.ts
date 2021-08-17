@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component} from '@angular/core';
 import { Organization } from '../shared/organization.model';
 import { OrganizationService } from '../shared/organizaton.service';
 
@@ -9,30 +9,19 @@ import { OrganizationService } from '../shared/organizaton.service';
   templateUrl: './organizations.component.html',
   styleUrls: ['./organizations.component.css']
 })
-export class OrganizationsComponent implements OnInit {
+export class OrganizationsComponent {
 
+  selectedOrganization: Organization;
+  refresh: boolean;
   constructor(public service: OrganizationService) { }
 
-  ngOnInit(): void {
-    this.service.refreshOrganizationList();
+  onChanged(organization: Organization) {
+    this.selectedOrganization = organization;
   }
 
-  takeorganization(selected: Organization){
-    this.service.formData =  Object.assign({}, selected);
-  }
-
-  onDelete(id:number){
-    if(confirm("Are you sure you want to delete this organization? "))
-    {
-      this.service.deleteRequest(id).subscribe
-      (
-      res=>{
-        this.service.refreshOrganizationList();
-      },
-      err =>{
-        console.log(err);
-      }
-      );
-    }
+  refreshList(makerefresh: boolean) {
+    this.refresh = !this.refresh;
   }
 }
+
+
